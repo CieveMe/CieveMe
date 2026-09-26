@@ -21,6 +21,8 @@ I build the unglamorous parts that have to actually work: video-surveillance and
 
 **[mysql-ops-mcp](https://github.com/CieveMe/mysql-ops-mcp)** — a read-only-first MCP server that gives an AI agent safe access to a private MySQL database through its own SSH tunnel. 24 unit tests, mutating tools unregistered by default, and a SQL guard that accepts nothing but a single read statement.
 
+**[agent-skills](https://github.com/CieveMe/agent-skills)** — the rule sets I give my coding agents, extracted from real deliveries and sanitised: payment integration traps, deployment failure modes, database-change safety, campaign hot-configuration.
+
 **wvp-GB28181-pro** (open source, 7.3k★) — four open pull requests:
 [SIP session cleanup / orphan-RTP fix #2244](https://github.com/648540858/wvp-GB28181-pro/pull/2244) ·
 [hook callback authentication #2243](https://github.com/648540858/wvp-GB28181-pro/pull/2243) ·
