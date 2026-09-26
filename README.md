@@ -4,6 +4,8 @@
 
 I build the unglamorous parts that have to actually work: video-surveillance and IoT backends, payment integrations, and the tooling that lets agents operate them safely.
 
+📄 **[Case studies](https://github.com/CieveMe/portfolio)** — how two production deliveries were actually built, with the constraints and the numbers.
+
 ---
 
 ### What I work on
