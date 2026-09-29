@@ -31,6 +31,19 @@ I build the unglamorous parts that have to actually work: video-surveillance and
 
 **[openai/codex #48314](https://github.com/openai/codex/issues/48314)** — reported a Windows MCP startup failure, traced to a missing file in the installed plugin directory, with exact reproduction steps and root cause.
 
+### Research & citable artifacts
+
+Reproduction work built on pinned expectations, negative controls that must fail, and a versioned DOI
+chain — every number produced by one command, and every correction published in the release body of the
+next version rather than edited into the old one.
+
+- **[autoresearch-experiment-runner](https://github.com/CieveMe/autoresearch-experiment-runner)** — a mechanism-level reproduction of two 2024 optimizer proposals, plus a task contract an agent submission can be scored against. Concept DOI: [10.5281/zenodo.23003610](https://doi.org/10.5281/zenodo.23003610)
+- **[mcp-security-benchmark](https://github.com/CieveMe/mcp-security-benchmark)** — a probe corpus for MCP server security: six threat classes, fourteen cases, and a harness with controls that must fail. Concept DOI: [10.5281/zenodo.23003715](https://doi.org/10.5281/zenodo.23003715)
+- **[mysql-ops-mcp](https://github.com/CieveMe/mysql-ops-mcp)** — a read-only-first MCP server for MySQL over its own SSH tunnel. Concept DOI: [10.5281/zenodo.23003962](https://doi.org/10.5281/zenodo.23003962)
+
+ORCID: [0009-0009-1526-5793](https://orcid.org/0009-0009-1526-5793) — citation queries, corrections and
+reproduction reports are welcome: open an issue on the repository, or write to the address below.
+
 ### Stack
 
 `Java` `Spring Boot` `Spring Cloud` `MySQL` `Redis` `Kafka` `RocketMQ` `Vue 3` `Docker` `Python`
@@ -38,6 +51,6 @@ I build the unglamorous parts that have to actually work: video-surveillance and
 
 ---
 
-📫 [13381875196@163.com](mailto:13381875196@163.com) · 💼 [LinkedIn](https://www.linkedin.com/in/zhen-he-a2336a43a) · 📍 Baotou, Inner Mongolia, China (UTC+8)
+📫 [cieve94107@gmail.com](mailto:cieve94107@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/zhen-he-a2336a43a) · 📍 Baotou, Inner Mongolia, China (UTC+8)
 
 <sub>中文：9 年 Java 全栈，主做视频监控 / 物联网平台与微信支付、小程序，近期专注 MCP / Agent 工具链。远程合作优先。</sub>
